@@ -25,15 +25,14 @@
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– 
   <link rel="icon" type="image/png" href="images/favicon.png"> -->
+<!-- Global Site Tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-36739324-1"></script>
 <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments)};
+  gtag('js', new Date());
 
-  ga('create', 'UA-36739324-1', 'mit.edu');
-  ga('send', 'pageview');
-
+  gtag('config', 'UA-36739324-1');
 </script>
 </head>
 <body>
@@ -54,11 +53,7 @@
         </ul>
       </div>
       <div class="eight columns" style="margin-top: 25%">
-        <p id="about">I am a fifth-year Ph.D. candidate in Operations Research at <a href="http://www.mit.edu/~orc/">MIT</a> advised by <a href="http://www.mit.edu/~jvielma/">Juan Pablo Vielma</a>. I received my B.S. in Applied Mathematics and M.S. in Statistics from the University of Chicago in 2011. After graduating, I spent a year as a researcher at <a href="http://www.mcs.anl.gov/">Argonne National Laboratory</a> before starting at MIT. I am excited to be joining Google Research in New York City in September 2017!</p>
-        
-        <p> My research interests span diverse areas of mathematical optimization, with a unifying theme of developing new <strong>methodologies for large-scale optimization</strong> drawing from motivating <strong>applications in renewable energy</strong>. I have published work in chance constrained optimization, mixed-integer conic optimization, robust optimization, stochastic programming, algebraic modeling, automatic differentiation, numerical linear algebra, and parallel computing techniques for large-scale problems.</p>
-
-        <p>In 2012, <a href="http://iaindunning.com/">Iain Dunning</a> and I (later joined by <a href="http://www.mit.edu/~huchette/">Joey Huchette</a>) started developing <a href="https://github.com/JuliaOpt/JuMP.jl">JuMP</a>, an open-source algebraic modeling language for optimization. Since then, JuMP has been used for teaching in at least 10 universities and by numerous researchers and companies worldwide. We were <a href="https://twitter.com/J_P_Vielma/status/798323596338823173">recently awarded</a> the INFORMS Computing Society prize for this work. I'm always interested to hear of who's using JuMP, so please get in touch. </p>
+          <p id="about">I am a research scientist in the <a href="https://research.google.com/teams/nycalg/large-scale-optimization/">Large Scale Optimization</a> team at Google in New York City. I received my Ph.D. from the <a href="http://orc.mit.edu/">Operations Research Center</a> at MIT in 2017 advised by <a href="http://www.mit.edu/~jvielma/">Juan Pablo Vielma</a>. I graduated from the University of Chicago in 2011 with a B.S. in Applied Mathematics and M.S. in Statistics. Prior to Google, I spent significant time as a researcher and visitor at Argonne and Los Alamos National Labs. This is my personal research page with links to my publications and talks.</p>
       </div>
     </div>
 
